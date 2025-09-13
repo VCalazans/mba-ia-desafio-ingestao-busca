@@ -13,10 +13,10 @@
    
 	Crie um arquivo `.env` na raiz do projeto com as variáveis necessárias, por exemplo:
 	```env
-	OPENAI_API_KEY=otken_openai
+	OPENAI_API_KEY=token_openai
 	PGVECTOR_URL=postgresql://usuario:senha@localhost:5432/seubanco
 	PGVECTOR_COLLECTION=nome_da_colecao
-	PDF_PATH=CAMINHO=caminho\para\seu\documento.pdf 
+	PDF_PATH=caminho\para\seu\documento.pdf 
 	```
 
 3. **Ingestão dos dados**
